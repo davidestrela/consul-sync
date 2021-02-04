@@ -255,6 +255,9 @@ const bootstrap = () => {
     if (!fs.existsSync(config.get('consulLocalFolder'))) {
         fs.mkdirSync(config.get('consulLocalFolder'))
     }
+    if (!fs.existsSync('./tmp')) {
+        fs.mkdirSync('./tmp')
+    }
 }
 
 try {
