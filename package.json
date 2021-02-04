@@ -1,0 +1,17 @@
+{
+  "name": "consul-sync",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index-tree.js",
+  "scripts": {
+    "sync-local": "node index.js get",
+    "sync-remote": "node index.js set"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^8.2.0",
+    "fs-extra": "^9.1.0"
+  }
+}
